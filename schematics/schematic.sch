@@ -7322,8 +7322,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="41.656" y="74.168" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.815" y="74.168" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND8" gate="1" x="38.1" y="66.04" smashed="yes">
-<attribute name="VALUE" x="35.56" y="63.5" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="38.1" y="63.5" smashed="yes">
+<attribute name="VALUE" x="35.56" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="38.1" y="91.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.5986" y="95.25" size="1.778" layer="95" rot="R270"/>
@@ -7440,7 +7440,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="38.1" y1="68.58" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="66.04" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
