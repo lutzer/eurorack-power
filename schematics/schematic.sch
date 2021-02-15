@@ -7238,9 +7238,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
+<groups>
+<schematic_group name="POWER_HEADER"/>
+<schematic_group name="POWER_HEADER_1"/>
+<schematic_group name="POWER_HEADER_2"/>
+<schematic_group name="POWER_HEADER_3"/>
+</groups>
 <parts>
 <part name="U$1" library="dk30a" deviceset="DKA30" device="&quot;"/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
 <part name="X2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5400" device="" package3d_urn="urn:adsk.eagle:package:43365/2"/>
@@ -7265,7 +7270,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220 Ohm"/>
+<part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV11" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV12" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV13" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV14" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV15" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV16" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
+<part name="SV17" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-2W" device="" package3d_urn="urn:adsk.eagle:package:8349/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7275,10 +7295,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="U$1" gate="G$1" x="66.04" y="68.58" smashed="yes">
 <attribute name="VALUE" x="59.055" y="61.595" size="1.016" layer="94" font="vector"/>
 <attribute name="NAME" x="59.055" y="59.69" size="1.016" layer="94" font="vector"/>
-</instance>
-<instance part="SV1" gate="1" x="129.54" y="68.58" smashed="yes">
-<attribute name="VALUE" x="125.73" y="55.88" size="1.778" layer="96"/>
-<attribute name="NAME" x="125.73" y="82.042" size="1.778" layer="95"/>
 </instance>
 <instance part="X2" gate="-1" x="0" y="96.52" smashed="yes">
 <attribute name="NAME" x="0" y="97.409" size="1.778" layer="95" rot="R180"/>
@@ -7362,9 +7378,53 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="107.7214" y="97.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.522" y="97.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SV2" gate="1" x="160.02" y="68.58" smashed="yes">
-<attribute name="VALUE" x="156.21" y="55.88" size="1.778" layer="96"/>
-<attribute name="NAME" x="156.21" y="82.042" size="1.778" layer="95"/>
+<instance part="SV6" gate="1" x="195.58" y="68.58" smashed="yes" grouprefs="POWER_HEADER">
+<attribute name="VALUE" x="191.77" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV7" gate="1" x="215.9" y="68.58" smashed="yes" grouprefs="POWER_HEADER">
+<attribute name="VALUE" x="212.09" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV8" gate="1" x="236.22" y="68.58" smashed="yes" grouprefs="POWER_HEADER">
+<attribute name="VALUE" x="232.41" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV9" gate="1" x="256.54" y="68.58" smashed="yes" grouprefs="POWER_HEADER">
+<attribute name="VALUE" x="252.73" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV10" gate="1" x="287.02" y="68.58" smashed="yes" grouprefs="POWER_HEADER_1">
+<attribute name="VALUE" x="283.21" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV11" gate="1" x="307.34" y="68.58" smashed="yes" grouprefs="POWER_HEADER_1">
+<attribute name="VALUE" x="303.53" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV12" gate="1" x="327.66" y="68.58" smashed="yes" grouprefs="POWER_HEADER_1">
+<attribute name="VALUE" x="323.85" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV13" gate="1" x="347.98" y="68.58" smashed="yes" grouprefs="POWER_HEADER_1">
+<attribute name="VALUE" x="344.17" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="SV2" gate="1" x="195.58" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_2">
+<attribute name="VALUE" x="191.77" y="-17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SV3" gate="1" x="215.9" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_2">
+<attribute name="VALUE" x="212.09" y="-17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SV4" gate="1" x="236.22" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_2">
+<attribute name="VALUE" x="232.41" y="-17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SV5" gate="1" x="256.54" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_2">
+<attribute name="VALUE" x="252.73" y="-17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SV14" gate="1" x="287.02" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_3">
+<attribute name="VALUE" x="283.21" y="-17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SV15" gate="1" x="307.34" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_3">
+<attribute name="VALUE" x="303.53" y="-17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SV16" gate="1" x="327.66" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_3">
+<attribute name="VALUE" x="323.85" y="-17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SV17" gate="1" x="347.98" y="-5.08" smashed="yes" grouprefs="POWER_HEADER_3">
+<attribute name="VALUE" x="344.17" y="-17.78" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7390,46 +7450,247 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="93.98" y1="50.8" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="3"/>
-<pinref part="SV1" gate="1" pin="4"/>
-<wire x1="121.92" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
 <label x="137.16" y="63.5" size="1.778" layer="95"/>
-<wire x1="93.98" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<junction x="121.92" y="63.5"/>
+<wire x1="93.98" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="63.5" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 <junction x="93.98" y="63.5"/>
-<pinref part="SV1" gate="1" pin="5"/>
-<pinref part="SV1" gate="1" pin="6"/>
-<wire x1="121.92" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <label x="137.16" y="66.04" size="1.778" layer="95"/>
-<wire x1="93.98" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<junction x="121.92" y="66.04"/>
+<wire x1="93.98" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
 <junction x="93.98" y="66.04"/>
-<pinref part="SV1" gate="1" pin="8"/>
-<pinref part="SV1" gate="1" pin="7"/>
-<wire x1="121.92" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <label x="137.16" y="68.58" size="1.778" layer="95"/>
-<wire x1="93.98" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
-<junction x="121.92" y="68.58"/>
-<pinref part="SV2" gate="1" pin="8"/>
-<wire x1="137.16" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
-<junction x="137.16" y="68.58"/>
-<pinref part="SV2" gate="1" pin="6"/>
-<wire x1="137.16" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-<junction x="137.16" y="66.04"/>
-<pinref part="SV2" gate="1" pin="4"/>
-<wire x1="137.16" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
-<junction x="137.16" y="63.5"/>
+<wire x1="93.98" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="SV6" gate="1" pin="3"/>
+<pinref part="SV7" gate="1" pin="4"/>
+<wire x1="208.28" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="4"/>
+<wire x1="187.96" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="63.5" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="3"/>
+<pinref part="SV8" gate="1" pin="4"/>
+<wire x1="228.6" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="63.5" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="63.5" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="3"/>
+<pinref part="SV9" gate="1" pin="4"/>
+<wire x1="248.92" y1="63.5" x2="243.84" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="63.5" x2="243.84" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="63.5" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="63.5" grouprefs="POWER_HEADER"/>
+<junction x="187.96" y="63.5"/>
+<pinref part="SV6" gate="1" pin="5"/>
+<pinref part="SV7" gate="1" pin="6"/>
+<wire x1="208.28" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="6"/>
+<wire x1="187.96" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="66.04" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="5"/>
+<pinref part="SV8" gate="1" pin="6"/>
+<wire x1="228.6" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="66.04" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="66.04" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="5"/>
+<pinref part="SV9" gate="1" pin="6"/>
+<wire x1="248.92" y1="66.04" x2="243.84" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="66.04" x2="243.84" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="66.04" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="66.04" grouprefs="POWER_HEADER"/>
+<junction x="187.96" y="66.04"/>
+<pinref part="SV6" gate="1" pin="7"/>
+<pinref part="SV7" gate="1" pin="8"/>
+<wire x1="208.28" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="8"/>
+<wire x1="187.96" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="68.58" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="7"/>
+<pinref part="SV8" gate="1" pin="8"/>
+<wire x1="228.6" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="68.58" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="68.58" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="7"/>
+<pinref part="SV9" gate="1" pin="8"/>
+<wire x1="248.92" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="68.58" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="68.58" grouprefs="POWER_HEADER"/>
+<junction x="187.96" y="68.58"/>
+<pinref part="SV9" gate="1" pin="7"/>
+<wire x1="248.92" y1="68.58" x2="264.16" y2="68.58" width="0.1524" layer="91"/>
+<junction x="248.92" y="68.58"/>
+<pinref part="SV9" gate="1" pin="5"/>
+<wire x1="248.92" y1="66.04" x2="264.16" y2="66.04" width="0.1524" layer="91"/>
+<junction x="248.92" y="66.04"/>
+<pinref part="SV9" gate="1" pin="3"/>
+<wire x1="248.92" y1="63.5" x2="264.16" y2="63.5" width="0.1524" layer="91"/>
+<junction x="248.92" y="63.5"/>
+<wire x1="299.72" y1="68.58" x2="294.64" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="68.58" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="68.58" x2="314.96" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="68.58" x2="314.96" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="68.58" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="68.58" grouprefs="POWER_HEADER_1"/>
+<wire x1="340.36" y1="68.58" x2="335.28" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="68.58" x2="335.28" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="68.58" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="68.58" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="7"/>
+<pinref part="SV10" gate="1" pin="8"/>
+<pinref part="SV11" gate="1" pin="7"/>
+<pinref part="SV11" gate="1" pin="8"/>
+<pinref part="SV12" gate="1" pin="7"/>
+<pinref part="SV12" gate="1" pin="8"/>
+<pinref part="SV13" gate="1" pin="8"/>
+<wire x1="264.16" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
+<junction x="264.16" y="68.58"/>
+<junction x="279.4" y="68.58"/>
+<wire x1="299.72" y1="66.04" x2="294.64" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="66.04" x2="279.4" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="66.04" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="66.04" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="66.04" grouprefs="POWER_HEADER_1"/>
+<wire x1="340.36" y1="66.04" x2="335.28" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="66.04" x2="335.28" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="66.04" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="66.04" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="5"/>
+<pinref part="SV10" gate="1" pin="6"/>
+<pinref part="SV11" gate="1" pin="5"/>
+<pinref part="SV11" gate="1" pin="6"/>
+<pinref part="SV12" gate="1" pin="5"/>
+<pinref part="SV12" gate="1" pin="6"/>
+<pinref part="SV13" gate="1" pin="6"/>
+<wire x1="264.16" y1="66.04" x2="279.4" y2="66.04" width="0.1524" layer="91"/>
+<junction x="264.16" y="66.04"/>
+<junction x="279.4" y="66.04"/>
+<wire x1="299.72" y1="63.5" x2="294.64" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="63.5" x2="279.4" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="63.5" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="63.5" x2="314.96" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="63.5" x2="314.96" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="63.5" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="63.5" grouprefs="POWER_HEADER_1"/>
+<wire x1="340.36" y1="63.5" x2="335.28" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="63.5" x2="335.28" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="63.5" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="63.5" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="3"/>
+<pinref part="SV10" gate="1" pin="4"/>
+<pinref part="SV11" gate="1" pin="3"/>
+<pinref part="SV11" gate="1" pin="4"/>
+<pinref part="SV12" gate="1" pin="3"/>
+<pinref part="SV12" gate="1" pin="4"/>
+<pinref part="SV13" gate="1" pin="4"/>
+<wire x1="264.16" y1="63.5" x2="279.4" y2="63.5" width="0.1524" layer="91"/>
+<junction x="264.16" y="63.5"/>
+<junction x="279.4" y="63.5"/>
+<pinref part="SV13" gate="1" pin="7"/>
+<wire x1="340.36" y1="68.58" x2="355.6" y2="68.58" width="0.1524" layer="91"/>
+<junction x="340.36" y="68.58"/>
+<pinref part="SV13" gate="1" pin="5"/>
+<wire x1="340.36" y1="66.04" x2="355.6" y2="66.04" width="0.1524" layer="91"/>
+<junction x="340.36" y="66.04"/>
+<pinref part="SV13" gate="1" pin="3"/>
+<wire x1="340.36" y1="63.5" x2="355.6" y2="63.5" width="0.1524" layer="91"/>
+<junction x="340.36" y="63.5"/>
+<wire x1="355.6" y1="68.58" x2="375.92" y2="68.58" width="0.1524" layer="91"/>
+<junction x="355.6" y="68.58"/>
+<wire x1="375.92" y1="68.58" x2="375.92" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="43.18" x2="167.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="43.18" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="SV14" gate="1" pin="8"/>
+<pinref part="SV5" gate="1" pin="7"/>
+<wire x1="264.16" y1="-5.08" x2="279.4" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="264.16" y="-5.08"/>
+<pinref part="SV5" gate="1" pin="8"/>
+<wire x1="248.92" y1="-5.08" x2="264.16" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="248.92" y="-5.08"/>
+<wire x1="248.92" y1="-5.08" x2="243.84" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="-5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="7"/>
+<wire x1="228.6" y1="-5.08" x2="243.84" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="-5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="8"/>
+<wire x1="228.6" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="203.2" y="-5.08" grouprefs="POWER_HEADER_2"/>
 <pinref part="SV2" gate="1" pin="7"/>
-<wire x1="152.4" y1="68.58" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
-<junction x="152.4" y="68.58"/>
+<pinref part="SV2" gate="1" pin="8"/>
+<wire x1="187.96" y1="-5.08" x2="203.2" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-5.08" x2="203.2" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="-5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="8"/>
+<wire x1="208.28" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="-5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="7"/>
+<wire x1="167.64" y1="-5.08" x2="187.96" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="187.96" y="-5.08"/>
+<pinref part="SV14" gate="1" pin="6"/>
+<pinref part="SV5" gate="1" pin="5"/>
+<wire x1="264.16" y1="-7.62" x2="279.4" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="264.16" y="-7.62"/>
+<pinref part="SV5" gate="1" pin="6"/>
+<wire x1="248.92" y1="-7.62" x2="264.16" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="248.92" y="-7.62"/>
+<wire x1="248.92" y1="-7.62" x2="243.84" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="-7.62" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="5"/>
+<wire x1="228.6" y1="-7.62" x2="243.84" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="-7.62" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="6"/>
+<wire x1="228.6" y1="-7.62" x2="223.52" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="203.2" y="-7.62" grouprefs="POWER_HEADER_2"/>
 <pinref part="SV2" gate="1" pin="5"/>
-<wire x1="152.4" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
-<junction x="152.4" y="66.04"/>
+<pinref part="SV2" gate="1" pin="6"/>
+<wire x1="187.96" y1="-7.62" x2="203.2" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-7.62" x2="203.2" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="-7.62" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="6"/>
+<wire x1="208.28" y1="-7.62" x2="223.52" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="-7.62" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="5"/>
+<wire x1="187.96" y1="-7.62" x2="165.1" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="187.96" y="-7.62"/>
+<wire x1="165.1" y1="-7.62" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="40.64" x2="378.46" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="40.64" x2="378.46" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="66.04" x2="355.6" y2="66.04" width="0.1524" layer="91"/>
+<junction x="355.6" y="66.04"/>
+<wire x1="355.6" y1="63.5" x2="381" y2="63.5" width="0.1524" layer="91"/>
+<junction x="355.6" y="63.5"/>
+<wire x1="381" y1="63.5" x2="381" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="381" y1="38.1" x2="162.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="38.1" x2="162.56" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="SV14" gate="1" pin="4"/>
+<pinref part="SV5" gate="1" pin="3"/>
+<wire x1="264.16" y1="-10.16" x2="279.4" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="264.16" y="-10.16"/>
+<pinref part="SV5" gate="1" pin="4"/>
+<wire x1="248.92" y1="-10.16" x2="264.16" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="248.92" y="-10.16"/>
+<wire x1="248.92" y1="-10.16" x2="243.84" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="-10.16" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="3"/>
+<junction x="203.2" y="-10.16" grouprefs="POWER_HEADER_2"/>
 <pinref part="SV2" gate="1" pin="3"/>
-<wire x1="152.4" y1="63.5" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
-<junction x="152.4" y="63.5"/>
+<pinref part="SV2" gate="1" pin="4"/>
+<wire x1="187.96" y1="-10.16" x2="203.2" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-10.16" x2="203.2" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="-10.16" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="4"/>
+<wire x1="208.28" y1="-10.16" x2="223.52" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="-10.16" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="3"/>
+<wire x1="228.6" y1="-10.16" x2="223.52" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<wire x1="228.6" y1="-10.16" x2="243.84" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="-10.16" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="4"/>
+<wire x1="162.56" y1="-10.16" x2="187.96" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="187.96" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -7465,50 +7726,94 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="5.08" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="-12V" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="2"/>
-<pinref part="SV1" gate="1" pin="1"/>
-<wire x1="121.92" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="137.16" y="60.96" size="1.778" layer="95"/>
-<wire x1="121.92" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-<junction x="121.92" y="60.96"/>
-<wire x1="114.3" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="-VOUT"/>
-<wire x1="88.9" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="53.34" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-<junction x="114.3" y="60.96"/>
-<pinref part="SV2" gate="1" pin="2"/>
-<wire x1="137.16" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
-<junction x="137.16" y="60.96"/>
-<pinref part="SV2" gate="1" pin="1"/>
-<wire x1="152.4" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
-<junction x="152.4" y="60.96"/>
-</segment>
-</net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="+VOUT"/>
 <wire x1="76.2" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="73.66" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="10"/>
 <wire x1="93.98" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="9"/>
-<wire x1="104.14" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<junction x="121.92" y="71.12"/>
+<wire x1="104.14" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
 <label x="137.16" y="71.12" size="1.778" layer="95"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="53.34" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <junction x="104.14" y="71.12"/>
-<pinref part="SV2" gate="1" pin="10"/>
-<wire x1="137.16" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
-<junction x="137.16" y="71.12"/>
+<pinref part="SV6" gate="1" pin="9"/>
+<pinref part="SV7" gate="1" pin="10"/>
+<wire x1="208.28" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="10"/>
+<wire x1="187.96" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="71.12" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="9"/>
+<pinref part="SV8" gate="1" pin="10"/>
+<wire x1="228.6" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="71.12" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="71.12" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="9"/>
+<pinref part="SV9" gate="1" pin="10"/>
+<wire x1="248.92" y1="71.12" x2="243.84" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="71.12" x2="243.84" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="71.12" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="71.12" grouprefs="POWER_HEADER"/>
+<junction x="187.96" y="71.12"/>
+<pinref part="SV9" gate="1" pin="9"/>
+<wire x1="248.92" y1="71.12" x2="264.16" y2="71.12" width="0.1524" layer="91"/>
+<junction x="248.92" y="71.12"/>
+<wire x1="299.72" y1="71.12" x2="294.64" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="71.12" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="71.12" x2="314.96" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="71.12" x2="314.96" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="71.12" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="71.12" grouprefs="POWER_HEADER_1"/>
+<wire x1="340.36" y1="71.12" x2="335.28" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="71.12" x2="335.28" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="71.12" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="71.12" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="9"/>
+<pinref part="SV10" gate="1" pin="10"/>
+<pinref part="SV11" gate="1" pin="9"/>
+<pinref part="SV11" gate="1" pin="10"/>
+<pinref part="SV12" gate="1" pin="9"/>
+<pinref part="SV12" gate="1" pin="10"/>
+<pinref part="SV13" gate="1" pin="10"/>
+<wire x1="264.16" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
+<junction x="264.16" y="71.12"/>
+<junction x="279.4" y="71.12"/>
+<pinref part="SV13" gate="1" pin="9"/>
+<wire x1="340.36" y1="71.12" x2="355.6" y2="71.12" width="0.1524" layer="91"/>
+<junction x="340.36" y="71.12"/>
+<pinref part="SV14" gate="1" pin="10"/>
+<pinref part="SV5" gate="1" pin="9"/>
+<wire x1="264.16" y1="-2.54" x2="279.4" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="264.16" y="-2.54"/>
+<pinref part="SV5" gate="1" pin="10"/>
+<wire x1="248.92" y1="-2.54" x2="264.16" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="248.92" y="-2.54"/>
+<wire x1="248.92" y1="-2.54" x2="243.84" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="-2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="9"/>
+<wire x1="228.6" y1="-2.54" x2="243.84" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="-2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="10"/>
+<wire x1="228.6" y1="-2.54" x2="223.52" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="203.2" y="-2.54" grouprefs="POWER_HEADER_2"/>
 <pinref part="SV2" gate="1" pin="9"/>
-<wire x1="152.4" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
-<junction x="152.4" y="71.12"/>
+<pinref part="SV2" gate="1" pin="10"/>
+<wire x1="187.96" y1="-2.54" x2="203.2" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-2.54" x2="203.2" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="-2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="10"/>
+<wire x1="208.28" y1="-2.54" x2="223.52" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="-2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="9"/>
+<wire x1="187.96" y1="-2.54" x2="170.18" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="187.96" y="-2.54"/>
+<wire x1="170.18" y1="-2.54" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="45.72" x2="373.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="45.72" x2="373.38" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="71.12" x2="355.6" y2="71.12" width="0.1524" layer="91"/>
+<junction x="355.6" y="71.12"/>
 </segment>
 </net>
 <net name="VI" class="0">
@@ -7527,60 +7832,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="68.58" y="96.52"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="38.1" y="96.52"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="12"/>
-<pinref part="SV1" gate="1" pin="11"/>
-<wire x1="121.92" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-<label x="137.16" y="73.66" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="VO"/>
-<wire x1="93.98" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="96.52" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
-<junction x="121.92" y="73.66"/>
-<wire x1="99.06" y1="93.98" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<junction x="99.06" y="96.52"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<junction x="109.22" y="96.52"/>
-<pinref part="SV2" gate="1" pin="12"/>
-<wire x1="137.16" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
-<junction x="137.16" y="73.66"/>
-<pinref part="SV2" gate="1" pin="11"/>
-<wire x1="152.4" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
-<junction x="152.4" y="73.66"/>
-</segment>
-</net>
-<net name="CV" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="14"/>
-<pinref part="SV1" gate="1" pin="13"/>
-<wire x1="121.92" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
-<label x="96.52" y="71.12" size="1.778" layer="95"/>
-<label x="137.16" y="76.2" size="1.778" layer="95"/>
-<pinref part="SV2" gate="1" pin="14"/>
-<wire x1="137.16" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
-<junction x="137.16" y="76.2"/>
-<pinref part="SV2" gate="1" pin="13"/>
-<wire x1="152.4" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
-<junction x="152.4" y="76.2"/>
-</segment>
-</net>
-<net name="GATE" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="16"/>
-<pinref part="SV1" gate="1" pin="15"/>
-<wire x1="121.92" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-<label x="137.16" y="78.74" size="1.778" layer="95"/>
-<pinref part="SV2" gate="1" pin="16"/>
-<wire x1="137.16" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
-<junction x="137.16" y="78.74"/>
-<pinref part="SV2" gate="1" pin="15"/>
-<wire x1="152.4" y1="78.74" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
-<junction x="152.4" y="78.74"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -7611,6 +7862,537 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="109.22" y1="106.68" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="GATE" class="0">
+<segment>
+<label x="137.16" y="78.74" size="1.778" layer="95"/>
+<pinref part="SV6" gate="1" pin="15"/>
+<pinref part="SV7" gate="1" pin="16"/>
+<wire x1="208.28" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="16"/>
+<wire x1="203.2" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="78.74" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="15"/>
+<pinref part="SV8" gate="1" pin="16"/>
+<wire x1="228.6" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="78.74" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="78.74" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="15"/>
+<pinref part="SV9" gate="1" pin="16"/>
+<wire x1="248.92" y1="78.74" x2="243.84" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="78.74" x2="243.84" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="78.74" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="78.74" grouprefs="POWER_HEADER"/>
+<wire x1="299.72" y1="78.74" x2="294.64" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="78.74" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="78.74" x2="314.96" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="78.74" x2="314.96" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="78.74" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="78.74" grouprefs="POWER_HEADER_1"/>
+<wire x1="340.36" y1="78.74" x2="335.28" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="78.74" x2="335.28" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="78.74" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="78.74" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="15"/>
+<pinref part="SV10" gate="1" pin="16"/>
+<junction x="279.4" y="78.74"/>
+<pinref part="SV11" gate="1" pin="15"/>
+<pinref part="SV11" gate="1" pin="16"/>
+<pinref part="SV12" gate="1" pin="15"/>
+<pinref part="SV12" gate="1" pin="16"/>
+<pinref part="SV13" gate="1" pin="16"/>
+<pinref part="SV9" gate="1" pin="15"/>
+<wire x1="264.16" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="78.74" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
+<junction x="264.16" y="78.74"/>
+<junction x="248.92" y="78.74"/>
+<pinref part="SV13" gate="1" pin="15"/>
+<wire x1="340.36" y1="78.74" x2="355.6" y2="78.74" width="0.1524" layer="91"/>
+<junction x="340.36" y="78.74"/>
+<wire x1="137.16" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
+<junction x="187.96" y="78.74"/>
+<wire x1="355.6" y1="78.74" x2="365.76" y2="78.74" width="0.1524" layer="91"/>
+<junction x="355.6" y="78.74"/>
+<wire x1="365.76" y1="78.74" x2="365.76" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="53.34" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="SV17" gate="1" pin="15"/>
+<pinref part="SV17" gate="1" pin="16"/>
+<wire x1="340.36" y1="5.08" x2="355.6" y2="5.08" width="0.1524" layer="91"/>
+<junction x="340.36" y="5.08"/>
+<wire x1="340.36" y1="5.08" x2="335.28" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="5.08" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV16" gate="1" pin="15"/>
+<wire x1="320.04" y1="5.08" x2="335.28" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="5.08" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV16" gate="1" pin="16"/>
+<wire x1="320.04" y1="5.08" x2="314.96" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="5.08" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV15" gate="1" pin="15"/>
+<wire x1="299.72" y1="5.08" x2="314.96" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="5.08" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV15" gate="1" pin="16"/>
+<wire x1="299.72" y1="5.08" x2="294.64" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="5.08" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="15"/>
+<wire x1="294.64" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="16"/>
+<junction x="279.4" y="5.08"/>
+<pinref part="SV5" gate="1" pin="15"/>
+<wire x1="264.16" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
+<junction x="264.16" y="5.08"/>
+<pinref part="SV5" gate="1" pin="16"/>
+<wire x1="248.92" y1="5.08" x2="264.16" y2="5.08" width="0.1524" layer="91"/>
+<junction x="248.92" y="5.08"/>
+<wire x1="248.92" y1="5.08" x2="243.84" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="15"/>
+<wire x1="228.6" y1="5.08" x2="243.84" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="16"/>
+<wire x1="228.6" y1="5.08" x2="223.52" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV2" gate="1" pin="16"/>
+<wire x1="203.2" y1="5.08" x2="187.96" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="203.2" y="5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV2" gate="1" pin="15"/>
+<wire x1="208.28" y1="5.08" x2="203.2" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="16"/>
+<wire x1="208.28" y1="5.08" x2="223.52" y2="5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="5.08" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="15"/>
+<wire x1="177.8" y1="5.08" x2="187.96" y2="5.08" width="0.1524" layer="91"/>
+<junction x="187.96" y="5.08"/>
+</segment>
+</net>
+<net name="CV" class="0">
+<segment>
+<label x="96.52" y="71.12" size="1.778" layer="95"/>
+<label x="137.16" y="76.2" size="1.778" layer="95"/>
+<pinref part="SV6" gate="1" pin="13"/>
+<pinref part="SV7" gate="1" pin="14"/>
+<wire x1="208.28" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="14"/>
+<wire x1="187.96" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="76.2" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="13"/>
+<pinref part="SV8" gate="1" pin="14"/>
+<wire x1="228.6" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="76.2" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="76.2" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="13"/>
+<pinref part="SV9" gate="1" pin="14"/>
+<wire x1="248.92" y1="76.2" x2="243.84" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="76.2" x2="243.84" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="76.2" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="76.2" grouprefs="POWER_HEADER"/>
+<pinref part="SV9" gate="1" pin="13"/>
+<wire x1="248.92" y1="76.2" x2="264.16" y2="76.2" width="0.1524" layer="91"/>
+<junction x="248.92" y="76.2"/>
+<wire x1="299.72" y1="76.2" x2="294.64" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="76.2" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="76.2" x2="314.96" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="76.2" x2="314.96" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="76.2" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="76.2" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="76.2" x2="335.28" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="76.2" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="76.2" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="13"/>
+<pinref part="SV10" gate="1" pin="14"/>
+<pinref part="SV11" gate="1" pin="13"/>
+<pinref part="SV11" gate="1" pin="14"/>
+<pinref part="SV12" gate="1" pin="13"/>
+<pinref part="SV12" gate="1" pin="14"/>
+<pinref part="SV13" gate="1" pin="14"/>
+<wire x1="264.16" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="264.16" y="76.2"/>
+<junction x="279.4" y="76.2"/>
+<wire x1="335.28" y1="76.2" x2="340.36" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="SV13" gate="1" pin="13"/>
+<wire x1="355.6" y1="76.2" x2="340.36" y2="76.2" width="0.1524" layer="91"/>
+<junction x="340.36" y="76.2"/>
+<wire x1="137.16" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
+<junction x="187.96" y="76.2"/>
+<pinref part="SV14" gate="1" pin="14"/>
+<pinref part="SV5" gate="1" pin="13"/>
+<wire x1="264.16" y1="2.54" x2="279.4" y2="2.54" width="0.1524" layer="91"/>
+<junction x="264.16" y="2.54"/>
+<pinref part="SV5" gate="1" pin="14"/>
+<wire x1="248.92" y1="2.54" x2="264.16" y2="2.54" width="0.1524" layer="91"/>
+<junction x="248.92" y="2.54"/>
+<wire x1="248.92" y1="2.54" x2="243.84" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="13"/>
+<wire x1="228.6" y1="2.54" x2="243.84" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="14"/>
+<wire x1="228.6" y1="2.54" x2="223.52" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="203.2" y="2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV2" gate="1" pin="13"/>
+<pinref part="SV2" gate="1" pin="14"/>
+<wire x1="187.96" y1="2.54" x2="203.2" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="2.54" x2="203.2" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="14"/>
+<wire x1="208.28" y1="2.54" x2="223.52" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="2.54" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="13"/>
+<wire x1="187.96" y1="2.54" x2="175.26" y2="2.54" width="0.1524" layer="91"/>
+<junction x="187.96" y="2.54"/>
+<wire x1="175.26" y1="2.54" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="50.8" x2="368.3" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="50.8" x2="368.3" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="76.2" x2="355.6" y2="76.2" width="0.1524" layer="91"/>
+<junction x="355.6" y="76.2"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<wire x1="116.84" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VO"/>
+<wire x1="93.98" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
+<junction x="99.06" y="96.52"/>
+<wire x1="99.06" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<junction x="109.22" y="96.52"/>
+<wire x1="109.22" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="96.52" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<label x="137.16" y="73.66" size="1.778" layer="95"/>
+<pinref part="SV6" gate="1" pin="11"/>
+<pinref part="SV7" gate="1" pin="12"/>
+<wire x1="208.28" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="12"/>
+<wire x1="187.96" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="73.66" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="11"/>
+<pinref part="SV8" gate="1" pin="12"/>
+<wire x1="228.6" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="73.66" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="73.66" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="11"/>
+<pinref part="SV9" gate="1" pin="12"/>
+<wire x1="248.92" y1="73.66" x2="243.84" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="73.66" x2="243.84" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="73.66" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="73.66" grouprefs="POWER_HEADER"/>
+<junction x="187.96" y="73.66"/>
+<pinref part="SV9" gate="1" pin="11"/>
+<wire x1="248.92" y1="73.66" x2="264.16" y2="73.66" width="0.1524" layer="91"/>
+<junction x="248.92" y="73.66"/>
+<wire x1="299.72" y1="73.66" x2="294.64" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="73.66" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="73.66" x2="314.96" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="73.66" x2="314.96" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="73.66" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="73.66" grouprefs="POWER_HEADER_1"/>
+<wire x1="340.36" y1="73.66" x2="335.28" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="73.66" x2="335.28" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="73.66" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="73.66" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="11"/>
+<pinref part="SV10" gate="1" pin="12"/>
+<pinref part="SV11" gate="1" pin="11"/>
+<pinref part="SV11" gate="1" pin="12"/>
+<pinref part="SV12" gate="1" pin="11"/>
+<pinref part="SV12" gate="1" pin="12"/>
+<pinref part="SV13" gate="1" pin="12"/>
+<wire x1="264.16" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
+<junction x="264.16" y="73.66"/>
+<junction x="279.4" y="73.66"/>
+<pinref part="SV13" gate="1" pin="11"/>
+<wire x1="340.36" y1="73.66" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
+<junction x="340.36" y="73.66"/>
+<wire x1="355.6" y1="73.66" x2="370.84" y2="73.66" width="0.1524" layer="91"/>
+<junction x="355.6" y="73.66"/>
+<wire x1="370.84" y1="73.66" x2="370.84" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="48.26" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="48.26" x2="172.72" y2="0" width="0.1524" layer="91"/>
+<pinref part="SV14" gate="1" pin="12"/>
+<pinref part="SV5" gate="1" pin="11"/>
+<wire x1="264.16" y1="0" x2="279.4" y2="0" width="0.1524" layer="91"/>
+<junction x="264.16" y="0"/>
+<pinref part="SV5" gate="1" pin="12"/>
+<wire x1="248.92" y1="0" x2="264.16" y2="0" width="0.1524" layer="91"/>
+<junction x="248.92" y="0"/>
+<wire x1="248.92" y1="0" x2="243.84" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="0" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="11"/>
+<wire x1="228.6" y1="0" x2="243.84" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="0" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="12"/>
+<wire x1="228.6" y1="0" x2="223.52" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="203.2" y="0" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV2" gate="1" pin="11"/>
+<pinref part="SV2" gate="1" pin="12"/>
+<wire x1="187.96" y1="0" x2="203.2" y2="0" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="0" x2="203.2" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="0" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="12"/>
+<wire x1="208.28" y1="0" x2="223.52" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="0" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="11"/>
+<wire x1="172.72" y1="0" x2="187.96" y2="0" width="0.1524" layer="91"/>
+<junction x="187.96" y="0"/>
+</segment>
+</net>
+<net name="-12V" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="-VOUT"/>
+<wire x1="114.3" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="53.34" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<junction x="114.3" y="60.96"/>
+<wire x1="114.3" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="137.16" y="60.96" size="1.778" layer="95"/>
+<pinref part="SV6" gate="1" pin="1"/>
+<pinref part="SV7" gate="1" pin="2"/>
+<wire x1="208.28" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<pinref part="SV6" gate="1" pin="2"/>
+<wire x1="187.96" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="203.2" y="60.96" grouprefs="POWER_HEADER"/>
+<pinref part="SV7" gate="1" pin="1"/>
+<pinref part="SV8" gate="1" pin="2"/>
+<wire x1="228.6" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="208.28" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="208.28" y="60.96" grouprefs="POWER_HEADER"/>
+<junction x="223.52" y="60.96" grouprefs="POWER_HEADER"/>
+<pinref part="SV8" gate="1" pin="1"/>
+<pinref part="SV9" gate="1" pin="2"/>
+<wire x1="248.92" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<wire x1="228.6" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER"/>
+<junction x="228.6" y="60.96" grouprefs="POWER_HEADER"/>
+<junction x="243.84" y="60.96" grouprefs="POWER_HEADER"/>
+<junction x="187.96" y="60.96"/>
+<pinref part="SV9" gate="1" pin="1"/>
+<wire x1="248.92" y1="60.96" x2="264.16" y2="60.96" width="0.1524" layer="91"/>
+<junction x="248.92" y="60.96"/>
+<wire x1="299.72" y1="60.96" x2="294.64" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="294.64" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="294.64" y="60.96" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="60.96" x2="314.96" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="299.72" y1="60.96" x2="314.96" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="299.72" y="60.96" grouprefs="POWER_HEADER_1"/>
+<junction x="314.96" y="60.96" grouprefs="POWER_HEADER_1"/>
+<wire x1="340.36" y1="60.96" x2="335.28" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<wire x1="320.04" y1="60.96" x2="335.28" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_HEADER_1"/>
+<junction x="320.04" y="60.96" grouprefs="POWER_HEADER_1"/>
+<junction x="335.28" y="60.96" grouprefs="POWER_HEADER_1"/>
+<pinref part="SV10" gate="1" pin="1"/>
+<pinref part="SV10" gate="1" pin="2"/>
+<pinref part="SV11" gate="1" pin="1"/>
+<pinref part="SV11" gate="1" pin="2"/>
+<pinref part="SV12" gate="1" pin="1"/>
+<pinref part="SV12" gate="1" pin="2"/>
+<pinref part="SV13" gate="1" pin="2"/>
+<wire x1="264.16" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
+<junction x="264.16" y="60.96"/>
+<junction x="279.4" y="60.96"/>
+<pinref part="SV13" gate="1" pin="1"/>
+<wire x1="340.36" y1="60.96" x2="355.6" y2="60.96" width="0.1524" layer="91"/>
+<junction x="340.36" y="60.96"/>
+<pinref part="SV14" gate="1" pin="2"/>
+<pinref part="SV5" gate="1" pin="1"/>
+<wire x1="264.16" y1="-12.7" x2="279.4" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="264.16" y="-12.7"/>
+<pinref part="SV5" gate="1" pin="2"/>
+<wire x1="248.92" y1="-12.7" x2="264.16" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="248.92" y="-12.7"/>
+<wire x1="248.92" y1="-12.7" x2="243.84" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="243.84" y="-12.7" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="1"/>
+<junction x="203.2" y="-12.7" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV2" gate="1" pin="1"/>
+<pinref part="SV2" gate="1" pin="2"/>
+<wire x1="187.96" y1="-12.7" x2="203.2" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-12.7" x2="203.2" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="208.28" y="-12.7" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="2"/>
+<wire x1="208.28" y1="-12.7" x2="223.52" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="223.52" y="-12.7" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV3" gate="1" pin="1"/>
+<wire x1="228.6" y1="-12.7" x2="223.52" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<wire x1="228.6" y1="-12.7" x2="243.84" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_2"/>
+<junction x="228.6" y="-12.7" grouprefs="POWER_HEADER_2"/>
+<pinref part="SV4" gate="1" pin="2"/>
+<wire x1="187.96" y1="-12.7" x2="160.02" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="187.96" y="-12.7"/>
+<wire x1="160.02" y1="-12.7" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="35.56" x2="383.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="35.56" x2="383.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="60.96" x2="355.6" y2="60.96" width="0.1524" layer="91"/>
+<junction x="355.6" y="60.96"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<wire x1="299.72" y1="-12.7" x2="294.64" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="-12.7" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-12.7" x2="314.96" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="299.72" y1="-12.7" x2="314.96" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="-12.7" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="-12.7" grouprefs="POWER_HEADER_3"/>
+<wire x1="340.36" y1="-12.7" x2="335.28" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-12.7" x2="335.28" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="-12.7" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="-12.7" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="1"/>
+<pinref part="SV15" gate="1" pin="1"/>
+<pinref part="SV15" gate="1" pin="2"/>
+<pinref part="SV16" gate="1" pin="1"/>
+<pinref part="SV16" gate="1" pin="2"/>
+<pinref part="SV17" gate="1" pin="2"/>
+<pinref part="SV17" gate="1" pin="1"/>
+<wire x1="340.36" y1="-12.7" x2="355.6" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="340.36" y="-12.7"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<wire x1="299.72" y1="-10.16" x2="294.64" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="-10.16" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-10.16" x2="314.96" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="299.72" y1="-10.16" x2="314.96" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="-10.16" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="-10.16" grouprefs="POWER_HEADER_3"/>
+<wire x1="340.36" y1="-10.16" x2="335.28" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-10.16" x2="335.28" y2="-10.16" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="-10.16" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="-10.16" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="3"/>
+<pinref part="SV15" gate="1" pin="3"/>
+<pinref part="SV15" gate="1" pin="4"/>
+<pinref part="SV16" gate="1" pin="3"/>
+<pinref part="SV16" gate="1" pin="4"/>
+<pinref part="SV17" gate="1" pin="4"/>
+<pinref part="SV17" gate="1" pin="3"/>
+<wire x1="340.36" y1="-10.16" x2="355.6" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="340.36" y="-10.16"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<wire x1="299.72" y1="-7.62" x2="294.64" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="-7.62" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-7.62" x2="314.96" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="299.72" y1="-7.62" x2="314.96" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="-7.62" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="-7.62" grouprefs="POWER_HEADER_3"/>
+<wire x1="340.36" y1="-7.62" x2="335.28" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-7.62" x2="335.28" y2="-7.62" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="-7.62" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="-7.62" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="5"/>
+<pinref part="SV15" gate="1" pin="5"/>
+<pinref part="SV15" gate="1" pin="6"/>
+<pinref part="SV16" gate="1" pin="5"/>
+<pinref part="SV16" gate="1" pin="6"/>
+<pinref part="SV17" gate="1" pin="6"/>
+<pinref part="SV17" gate="1" pin="5"/>
+<wire x1="340.36" y1="-7.62" x2="355.6" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="340.36" y="-7.62"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<wire x1="299.72" y1="-5.08" x2="294.64" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="-5.08" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-5.08" x2="314.96" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="299.72" y1="-5.08" x2="314.96" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="-5.08" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="-5.08" grouprefs="POWER_HEADER_3"/>
+<wire x1="340.36" y1="-5.08" x2="335.28" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-5.08" x2="335.28" y2="-5.08" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="-5.08" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="-5.08" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="7"/>
+<pinref part="SV15" gate="1" pin="7"/>
+<pinref part="SV15" gate="1" pin="8"/>
+<pinref part="SV16" gate="1" pin="7"/>
+<pinref part="SV16" gate="1" pin="8"/>
+<pinref part="SV17" gate="1" pin="8"/>
+<pinref part="SV17" gate="1" pin="7"/>
+<wire x1="340.36" y1="-5.08" x2="355.6" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="340.36" y="-5.08"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<wire x1="299.72" y1="-2.54" x2="294.64" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="-2.54" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-2.54" x2="314.96" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="299.72" y1="-2.54" x2="314.96" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="-2.54" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="-2.54" grouprefs="POWER_HEADER_3"/>
+<wire x1="340.36" y1="-2.54" x2="335.28" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="-2.54" x2="335.28" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="-2.54" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="-2.54" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="9"/>
+<pinref part="SV15" gate="1" pin="9"/>
+<pinref part="SV15" gate="1" pin="10"/>
+<pinref part="SV16" gate="1" pin="9"/>
+<pinref part="SV16" gate="1" pin="10"/>
+<pinref part="SV17" gate="1" pin="10"/>
+<pinref part="SV17" gate="1" pin="9"/>
+<wire x1="340.36" y1="-2.54" x2="355.6" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="340.36" y="-2.54"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<wire x1="299.72" y1="0" x2="294.64" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="0" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="0" x2="314.96" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="299.72" y1="0" x2="314.96" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="0" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="0" grouprefs="POWER_HEADER_3"/>
+<wire x1="340.36" y1="0" x2="335.28" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="0" x2="335.28" y2="0" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="0" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="0" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="11"/>
+<pinref part="SV15" gate="1" pin="11"/>
+<pinref part="SV15" gate="1" pin="12"/>
+<pinref part="SV16" gate="1" pin="11"/>
+<pinref part="SV16" gate="1" pin="12"/>
+<pinref part="SV17" gate="1" pin="12"/>
+<pinref part="SV17" gate="1" pin="11"/>
+<wire x1="340.36" y1="0" x2="355.6" y2="0" width="0.1524" layer="91"/>
+<junction x="340.36" y="0"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<wire x1="299.72" y1="2.54" x2="294.64" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="294.64" y="2.54" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="2.54" x2="314.96" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="299.72" y1="2.54" x2="314.96" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="299.72" y="2.54" grouprefs="POWER_HEADER_3"/>
+<junction x="314.96" y="2.54" grouprefs="POWER_HEADER_3"/>
+<wire x1="340.36" y1="2.54" x2="335.28" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<wire x1="320.04" y1="2.54" x2="335.28" y2="2.54" width="0.1524" layer="91" grouprefs="POWER_HEADER_3"/>
+<junction x="320.04" y="2.54" grouprefs="POWER_HEADER_3"/>
+<junction x="335.28" y="2.54" grouprefs="POWER_HEADER_3"/>
+<pinref part="SV14" gate="1" pin="13"/>
+<pinref part="SV15" gate="1" pin="13"/>
+<pinref part="SV15" gate="1" pin="14"/>
+<pinref part="SV16" gate="1" pin="13"/>
+<pinref part="SV16" gate="1" pin="14"/>
+<pinref part="SV17" gate="1" pin="14"/>
+<pinref part="SV17" gate="1" pin="13"/>
+<wire x1="340.36" y1="2.54" x2="355.6" y2="2.54" width="0.1524" layer="91"/>
+<junction x="340.36" y="2.54"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -7631,6 +8413,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 

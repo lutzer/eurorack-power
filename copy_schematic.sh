@@ -9,6 +9,7 @@ if [ -z "$1" ]
 fi
 
 SOURCE=$1
+
 cp $SOURCE"schematic.sch" schematics
 cp $SOURCE"eagle.epf" schematics
 
