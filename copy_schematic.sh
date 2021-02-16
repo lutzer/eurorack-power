@@ -11,6 +11,7 @@ fi
 SOURCE=$1
 
 cp $SOURCE"schematic.sch" schematics
+cp $SOURCE"schematic.brd" schematics
 cp $SOURCE"eagle.epf" schematics
 
 echo "eagle files copied from "$SOURCE
