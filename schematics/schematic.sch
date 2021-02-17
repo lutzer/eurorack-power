@@ -16371,6 +16371,8 @@ W = angled&lt;p&gt;
 <wire x1="187.96" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <junction x="187.96" y="71.12"/>
 <junction x="104.14" y="71.12"/>
+<probe x="360.68" y="71.12" size="1.778" layer="89" probetype="0"/>
+<probe x="261.62" y="45.72" size="1.778" layer="89" probetype="0"/>
 </segment>
 </net>
 <net name="VI" class="0">
