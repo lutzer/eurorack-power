@@ -74,87 +74,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="dk30a">
-<description>Components from http://computronics.com.au/tools/
-©Computronics Corporation Ltd, 2004
-May be freely used, modified &amp; redistributed providing this copyright notice &amp; web address is retained (including derived libraries).</description>
-<packages>
-<package name="DKA">
-<wire x1="-25.4" y1="25.4" x2="25.4" y2="25.4" width="0.127" layer="21"/>
-<wire x1="25.4" y1="25.4" x2="25.4" y2="-25.4" width="0.127" layer="21"/>
-<wire x1="25.4" y1="-25.4" x2="-25.4" y2="-25.4" width="0.127" layer="21"/>
-<wire x1="-25.4" y1="-25.4" x2="-25.4" y2="25.4" width="0.127" layer="21"/>
-<pad name="3" x="-2.54" y="-22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<pad name="4" x="2.54" y="-22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<pad name="2" x="-7.62" y="-22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<pad name="1" x="-12.7" y="-22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<pad name="8" x="-15.24" y="22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<pad name="7" x="-5.08" y="22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<pad name="6" x="5.08" y="22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<pad name="5" x="15.24" y="22.86" drill="1.27" diameter="2.54" shape="octagon"/>
-<text x="-20.32" y="17.78" size="1.27" layer="21" font="vector">&gt;VALUE</text>
-<text x="-26.67" y="-22.86" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
-<text x="-17.78" y="21.59" size="1.27" layer="21" font="vector">8</text>
-<text x="17.78" y="21.59" size="1.27" layer="21" font="vector">5</text>
-<text x="-15.24" y="-21.59" size="1.27" layer="21" font="vector">1</text>
-<text x="5.08" y="-21.59" size="1.27" layer="21" font="vector">4</text>
-</package>
-</packages>
-<symbols>
-<symbol name="DKA30">
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-11.43" y="-0.635" size="1.27" layer="94" font="vector">Vin</text>
-<text x="8.255" y="1.905" size="1.27" layer="94" font="vector">Vout</text>
-<text x="8.255" y="-3.175" size="1.27" layer="94" font="vector">Vout</text>
-<text x="3.81" y="-0.635" size="1.27" layer="94" font="vector">Com</text>
-<text x="-6.985" y="4.445" size="1.27" layer="94" font="vector">+</text>
-<text x="6.35" y="4.445" size="1.27" layer="94" font="vector">+</text>
-<text x="-6.985" y="-5.715" size="1.27" layer="94" font="vector">-</text>
-<text x="6.35" y="-5.715" size="1.27" layer="94" font="vector">-</text>
-<text x="0.635" y="8.255" size="1.27" layer="94" font="vector">Trim</text>
-<text x="0.635" y="-9.525" size="1.27" layer="94" font="vector">RC</text>
-<text x="-6.985" y="-6.985" size="1.016" layer="94" font="vector">&gt;VALUE</text>
-<text x="-6.985" y="-8.89" size="1.016" layer="94" font="vector">&gt;NAME</text>
-<text x="-6.35" y="-0.635" size="1.27" layer="94" font="vector">DC-DC</text>
-<pin name="+VIN" x="-10.16" y="5.08" visible="off" length="short" direction="pwr"/>
-<pin name="-VIN" x="-10.16" y="-5.08" visible="off" length="short" direction="pwr" swaplevel="1"/>
-<pin name="COM" x="10.16" y="0" visible="off" length="short" direction="pwr" swaplevel="2" rot="R180"/>
-<pin name="+VOUT" x="10.16" y="5.08" visible="off" length="short" direction="pwr" swaplevel="3" rot="R180"/>
-<pin name="-VOUT" x="10.16" y="-5.08" visible="off" length="short" direction="pwr" swaplevel="4" rot="R180"/>
-<pin name="RC" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
-<pin name="TRIM" x="0" y="10.16" visible="off" length="short" swaplevel="1" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DKA30" uservalue="yes">
-<description>30W DC-DC converter - regulated dual output
-Specifications can be viewed at
-http://computronics.com.au/meanwell/dka/</description>
-<gates>
-<gate name="G$1" symbol="DKA30" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="&quot;" package="DKA">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="4"/>
-<connect gate="G$1" pin="+VOUT" pad="5"/>
-<connect gate="G$1" pin="-VIN" pad="3"/>
-<connect gate="G$1" pin="-VOUT" pad="7"/>
-<connect gate="G$1" pin="COM" pad="6"/>
-<connect gate="G$1" pin="RC" pad="1"/>
-<connect gate="G$1" pin="TRIM" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-wago-500" urn="urn:adsk.eagle:library:195">
 <description>&lt;b&gt;Wago Screw Clamps&lt;/b&gt;&lt;p&gt;
 Grid 5.00 mm&lt;p&gt;
@@ -15907,6 +15826,89 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="DKMW30F-15">
+<description>&lt;Isolated DC/DC Converters&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DKMW30F15">
+<description>&lt;b&gt;DKMW30F-15-4&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95"/>
+<pad name="2" x="-5.08" y="0" drill="1.3" diameter="1.95"/>
+<pad name="3" x="7.62" y="20.32" drill="1.3" diameter="1.95"/>
+<pad name="4" x="-2.54" y="20.32" drill="1.3" diameter="1.95"/>
+<pad name="5" x="-12.7" y="20.32" drill="1.3" diameter="1.95"/>
+<pad name="6" x="-12.7" y="0" drill="1.3" diameter="1.95"/>
+<text x="-2.54" y="9.81" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-2.54" y="9.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-15.24" y1="-2.54" x2="10.16" y2="-2.54" width="0.2" layer="51"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="22.86" width="0.2" layer="51"/>
+<wire x1="10.16" y1="22.86" x2="-15.24" y2="22.86" width="0.2" layer="51"/>
+<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-2.54" width="0.2" layer="51"/>
+<wire x1="-15.24" y1="-2.54" x2="10.16" y2="-2.54" width="0.1" layer="21"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="22.86" width="0.1" layer="21"/>
+<wire x1="10.16" y1="22.86" x2="-15.24" y2="22.86" width="0.1" layer="21"/>
+<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-2.54" width="0.1" layer="21"/>
+<wire x1="-15.74" y1="-3.74" x2="10.66" y2="-3.74" width="0.1" layer="51"/>
+<wire x1="10.66" y1="-3.74" x2="10.66" y2="23.36" width="0.1" layer="51"/>
+<wire x1="10.66" y1="23.36" x2="-15.74" y2="23.36" width="0.1" layer="51"/>
+<wire x1="-15.74" y1="23.36" x2="-15.74" y2="-3.74" width="0.1" layer="51"/>
+<wire x1="-0.04" y1="-3.14" x2="-0.04" y2="-3.14" width="0.2" layer="21"/>
+<wire x1="-0.04" y1="-3.14" x2="0.16" y2="-3.14" width="0.2" layer="21" curve="180"/>
+<wire x1="0.16" y1="-3.14" x2="0.16" y2="-3.14" width="0.2" layer="21"/>
+<wire x1="0.16" y1="-3.14" x2="-0.04" y2="-3.14" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DKMW30F-15">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+VIN" x="0" y="-5.08" length="middle"/>
+<pin name="-VIN" x="0" y="-2.54" length="middle"/>
+<pin name="+VOUT" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="COMMON" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="-VOUT" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="R.C." x="0" y="0" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DKMW30F-15" prefix="PS">
+<description>&lt;b&gt;Isolated DC/DC Converters&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DKMW30F-15" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DKMW30F15">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT" pad="3"/>
+<connect gate="G$1" pin="-VIN" pad="2"/>
+<connect gate="G$1" pin="-VOUT" pad="5"/>
+<connect gate="G$1" pin="COMMON" pad="4"/>
+<connect gate="G$1" pin="R.C." pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="DKMW30F-15" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/dkmw30f-15/mean-well-enterprises" constant="no"/>
+<attribute name="DESCRIPTION" value="Isolated DC/DC Converters" constant="no"/>
+<attribute name="HEIGHT" value="10.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Mean Well" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DKMW30F-15" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="709-DKMW30F-15" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/MEAN-WELL/DKMW30F-15?qs=5aG0NVq1C4yNc3LnGPT%252BeA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15923,7 +15925,6 @@ W = angled&lt;p&gt;
 <schematic_group name="POWER_CONN1"/>
 </groups>
 <parts>
-<part name="U$1" library="dk30a" deviceset="DKA30" device="&quot;"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5400" device="" package3d_urn="urn:adsk.eagle:package:43365/2"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15935,7 +15936,7 @@ W = angled&lt;p&gt;
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="820 Ohm"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1200 Ohm"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="680 Ohm"/>
@@ -15956,16 +15957,13 @@ W = angled&lt;p&gt;
 <part name="SV8" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
 <part name="SV9" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
 <part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-4" device="" package3d_urn="urn:adsk.eagle:package:10695/1"/>
+<part name="PS1" library="DKMW30F-15" deviceset="DKMW30F-15" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="66.04" y="68.58" smashed="yes">
-<attribute name="VALUE" x="59.055" y="61.595" size="1.016" layer="94" font="vector"/>
-<attribute name="NAME" x="59.055" y="59.69" size="1.016" layer="94" font="vector"/>
-</instance>
 <instance part="GND1" gate="1" x="17.78" y="88.9" smashed="yes">
 <attribute name="VALUE" x="15.24" y="86.36" size="1.778" layer="96"/>
 </instance>
@@ -15973,8 +15971,8 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="20.32" y="97.0026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="20.32" y="94.2086" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="50.8" y="48.26" smashed="yes">
-<attribute name="VALUE" x="48.26" y="45.72" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="48.26" y="48.26" smashed="yes">
+<attribute name="VALUE" x="45.72" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="G$1" x="83.82" y="96.52" smashed="yes">
 <attribute name="NAME" x="76.2" y="101.981" size="1.6764" layer="95"/>
@@ -15986,8 +15984,8 @@ W = angled&lt;p&gt;
 <instance part="GND3" gate="1" x="93.98" y="48.26" smashed="yes">
 <attribute name="VALUE" x="91.44" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="81.28" y="48.26" smashed="yes">
-<attribute name="VALUE" x="78.74" y="45.72" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="83.82" y="48.26" smashed="yes">
+<attribute name="VALUE" x="81.28" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="68.58" y="83.82" smashed="yes">
 <attribute name="VALUE" x="66.04" y="81.28" size="1.778" layer="96"/>
@@ -16092,6 +16090,10 @@ W = angled&lt;p&gt;
 <attribute name="VALUE" x="-2.54" y="82.677" size="1.778" layer="96"/>
 <attribute name="NAME" x="0" y="87.249" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="PS1" gate="G$1" x="50.8" y="71.12" smashed="yes">
+<attribute name="NAME" x="77.47" y="78.74" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="77.47" y="76.2" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16104,12 +16106,6 @@ W = angled&lt;p&gt;
 <pinref part="X1" gate="-4" pin="KL"/>
 <wire x1="5.08" y1="91.44" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
 <junction x="5.08" y="91.44"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="-VIN"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="55.88" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="63.5" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -16269,12 +16265,6 @@ W = angled&lt;p&gt;
 <junction x="93.98" y="63.5"/>
 </segment>
 <segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="81.28" y1="50.8" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="COM"/>
-<wire x1="81.28" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="38.1" y1="66.04" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
@@ -16301,6 +16291,18 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="-"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="PS1" gate="G$1" pin="COMMON"/>
+<wire x1="83.82" y1="50.8" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PS1" gate="G$1" pin="-VIN"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="50.8" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="68.58" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -16361,35 +16363,35 @@ W = angled&lt;p&gt;
 <wire x1="264.16" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
 <junction x="264.16" y="71.12"/>
 <junction x="279.4" y="71.12"/>
-<pinref part="U$1" gate="G$1" pin="+VOUT"/>
-<wire x1="76.2" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="73.66" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="53.34" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <label x="137.16" y="71.12" size="1.778" layer="95"/>
 <wire x1="187.96" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <junction x="187.96" y="71.12"/>
 <junction x="104.14" y="71.12"/>
+<wire x1="91.44" y1="71.12" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="PS1" gate="G$1" pin="+VOUT"/>
+<wire x1="91.44" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VI" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="+VIN"/>
-<wire x1="50.8" y1="96.52" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VI"/>
 <wire x1="73.66" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="C"/>
-<wire x1="68.58" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
-<junction x="50.8" y="96.52"/>
-<wire x1="38.1" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="93.98" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 <junction x="68.58" y="96.52"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="38.1" y="96.52"/>
 <pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="PS1" gate="G$1" pin="+VIN"/>
+<wire x1="50.8" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="66.04" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<junction x="45.72" y="96.52"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -16526,12 +16528,9 @@ W = angled&lt;p&gt;
 </net>
 <net name="-12V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="-VOUT"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="53.34" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 <label x="137.16" y="60.96" size="1.778" layer="95"/>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <pinref part="SV18" gate="G$1" pin="1"/>
@@ -16581,6 +16580,9 @@ W = angled&lt;p&gt;
 <wire x1="114.3" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
 <junction x="114.3" y="60.96"/>
 <junction x="187.96" y="60.96"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="PS1" gate="G$1" pin="-VOUT"/>
+<wire x1="88.9" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V1" class="0">
