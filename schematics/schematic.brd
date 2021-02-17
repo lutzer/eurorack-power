@@ -95,6 +95,8 @@ In: DC 9-18V 30W</text>
 <text x="11.43" y="24.13" size="2.54" layer="1" align="center">-</text>
 <dimension x1="0" y1="0" x2="0" y2="63.5" x3="-3.81" y3="31.75" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="0" x2="180.34" y2="0" x3="90.17" y3="-5.08" textsize="1.778" layer="47"/>
+<text x="172.72" y="36.83" size="1.778" layer="1" align="center">red</text>
+<text x="172.72" y="7.62" size="1.778" layer="1" align="center">red</text>
 </plain>
 <libraries>
 <library name="diode" urn="urn:adsk.eagle:library:210">
