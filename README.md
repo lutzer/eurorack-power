@@ -1,6 +1,13 @@
 # Eurorack Power Supplies
 
+schematics for eurorack power supplies
 
+## Setup
+
+* copy libraries from *schematics/libraries* to eagle libraries folder
+* copy schematics to eagle project folder
+* open project
+* activate libraries with right click and *use* in library manager
 
 ### DC DC Converter Options
 
