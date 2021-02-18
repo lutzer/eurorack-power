@@ -15934,9 +15934,6 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1200 Ohm"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="680 Ohm"/>
@@ -15946,7 +15943,6 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="220 Ohm"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="22uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="22uF"/>
 <part name="SV21" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
 <part name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
@@ -15958,18 +15954,27 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <part name="SV9" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
 <part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-4" device="" package3d_urn="urn:adsk.eagle:package:10695/1"/>
 <part name="PS1" library="DKMW30F-15" deviceset="DKMW30F-15" device=""/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100uF"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1 Ohm"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1 Ohm"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100uF"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="GND1" gate="1" x="17.78" y="88.9" smashed="yes">
-<attribute name="VALUE" x="15.24" y="86.36" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="7.62" y="88.9" smashed="yes">
+<attribute name="VALUE" x="5.08" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="1" x="17.78" y="96.52" smashed="yes">
-<attribute name="NAME" x="20.32" y="97.0026" size="1.778" layer="95"/>
-<attribute name="VALUE" x="20.32" y="94.2086" size="1.778" layer="96"/>
+<instance part="D1" gate="1" x="7.62" y="96.52" smashed="yes">
+<attribute name="NAME" x="10.16" y="97.0026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="10.16" y="94.2086" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="48.26" y="48.26" smashed="yes">
 <attribute name="VALUE" x="45.72" y="45.72" size="1.778" layer="96"/>
@@ -15987,22 +15992,11 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <instance part="GND5" gate="1" x="83.82" y="48.26" smashed="yes">
 <attribute name="VALUE" x="81.28" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="68.58" y="83.82" smashed="yes">
-<attribute name="VALUE" x="66.04" y="81.28" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="66.04" y="83.82" smashed="yes">
+<attribute name="VALUE" x="63.5" y="81.28" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="99.06" y="83.82" smashed="yes">
 <attribute name="VALUE" x="96.52" y="81.28" size="1.778" layer="96"/>
-</instance>
-<instance part="LED1" gate="G$1" x="38.1" y="78.74" smashed="yes">
-<attribute name="NAME" x="41.656" y="74.168" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="43.815" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND8" gate="1" x="38.1" y="63.5" smashed="yes">
-<attribute name="VALUE" x="35.56" y="60.96" size="1.778" layer="96"/>
-</instance>
-<instance part="R1" gate="G$1" x="38.1" y="91.44" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.5986" y="95.25" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="34.798" y="95.25" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="LED2" gate="G$1" x="114.3" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.744" y="40.132" size="1.778" layer="95" rot="R270"/>
@@ -16036,10 +16030,6 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <instance part="R4" gate="G$1" x="109.22" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.7214" y="97.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.522" y="97.79" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C3" gate="G$1" x="68.58" y="91.44" smashed="yes">
-<attribute name="NAME" x="69.723" y="91.9226" size="1.778" layer="95"/>
-<attribute name="VALUE" x="69.723" y="86.8426" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="99.06" y="91.44" smashed="yes">
 <attribute name="NAME" x="100.203" y="91.9226" size="1.778" layer="95"/>
@@ -16077,22 +16067,55 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <attribute name="VALUE" x="323.85" y="55.88" size="1.778" layer="96"/>
 <attribute name="NAME" x="323.85" y="82.042" size="1.778" layer="95"/>
 </instance>
-<instance part="X1" gate="-1" x="0" y="101.6" smashed="yes">
-<attribute name="NAME" x="0" y="102.489" size="1.778" layer="95" rot="R180"/>
+<instance part="X1" gate="-1" x="-10.16" y="101.6" smashed="yes">
+<attribute name="NAME" x="-10.16" y="102.489" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-2" x="0" y="96.52" smashed="yes">
-<attribute name="NAME" x="0" y="97.409" size="1.778" layer="95" rot="R180"/>
+<instance part="X1" gate="-2" x="-10.16" y="96.52" smashed="yes">
+<attribute name="NAME" x="-10.16" y="97.409" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-3" x="0" y="91.44" smashed="yes">
-<attribute name="NAME" x="0" y="92.329" size="1.778" layer="95" rot="R180"/>
+<instance part="X1" gate="-3" x="-10.16" y="91.44" smashed="yes">
+<attribute name="NAME" x="-10.16" y="92.329" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-4" x="0" y="86.36" smashed="yes">
-<attribute name="VALUE" x="-2.54" y="82.677" size="1.778" layer="96"/>
-<attribute name="NAME" x="0" y="87.249" size="1.778" layer="95" rot="R180"/>
+<instance part="X1" gate="-4" x="-10.16" y="86.36" smashed="yes">
+<attribute name="VALUE" x="-12.7" y="82.677" size="1.778" layer="96"/>
+<attribute name="NAME" x="-10.16" y="87.249" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="PS1" gate="G$1" x="50.8" y="71.12" smashed="yes">
 <attribute name="NAME" x="77.47" y="78.74" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="77.47" y="76.2" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C1" gate="G$1" x="45.72" y="91.44" smashed="yes">
+<attribute name="NAME" x="46.863" y="91.9226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.863" y="86.8426" size="1.778" layer="96"/>
+</instance>
+<instance part="GND12" gate="1" x="45.72" y="83.82" smashed="yes">
+<attribute name="VALUE" x="43.18" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="55.88" y="96.52" smashed="yes">
+<attribute name="NAME" x="52.07" y="98.0186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="93.218" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="38.1" y="50.8" smashed="yes">
+<attribute name="VALUE" x="35.56" y="48.26" size="1.778" layer="96"/>
+</instance>
+<instance part="GND14" gate="1" x="17.78" y="50.8" smashed="yes">
+<attribute name="VALUE" x="15.24" y="48.26" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="27.94" y="66.04" smashed="yes">
+<attribute name="NAME" x="24.13" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.59" y="60.198" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="66.04" y="91.44" smashed="yes">
+<attribute name="NAME" x="67.183" y="91.9226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="67.183" y="86.8426" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="17.78" y="58.42" smashed="yes">
+<attribute name="NAME" x="18.923" y="58.9026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="18.923" y="53.8226" size="1.778" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="38.1" y="58.42" smashed="yes">
+<attribute name="NAME" x="39.243" y="58.9026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.243" y="53.8226" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -16101,11 +16124,11 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="5.08" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-3" pin="KL"/>
 <pinref part="X1" gate="-4" pin="KL"/>
-<wire x1="5.08" y1="91.44" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
-<junction x="5.08" y="91.44"/>
+<wire x1="-5.08" y1="91.44" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-5.08" y="91.44"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -16265,11 +16288,6 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <junction x="93.98" y="63.5"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="38.1" y1="66.04" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="114.3" y1="33.02" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
@@ -16283,10 +16301,6 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="109.22" y1="124.46" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -16304,16 +16318,32 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="50.8" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="68.58" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="-"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="-"/>
+</segment>
 </net>
 <net name="+15V" class="0">
 <segment>
 <pinref part="D1" gate="1" pin="A"/>
-<wire x1="5.08" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-<label x="5.08" y="96.52" size="1.778" layer="95"/>
+<wire x1="-5.08" y1="96.52" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
+<label x="-5.08" y="96.52" size="1.778" layer="95"/>
 <pinref part="X1" gate="-2" pin="KL"/>
 <pinref part="X1" gate="-1" pin="KL"/>
-<wire x1="5.08" y1="101.6" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
-<junction x="5.08" y="96.52"/>
+<wire x1="-5.08" y1="101.6" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-5.08" y="96.52"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -16378,27 +16408,12 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <net name="VI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VI"/>
-<wire x1="73.66" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="C"/>
-<wire x1="68.58" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="93.98" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
-<junction x="68.58" y="96.52"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<junction x="38.1" y="96.52"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<pinref part="PS1" gate="G$1" pin="+VIN"/>
-<wire x1="50.8" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="66.04" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-<junction x="45.72" y="96.52"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="38.1" y1="86.36" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="93.98" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<junction x="66.04" y="96.52"/>
+<pinref part="C2" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16665,6 +16680,36 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="187.96" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 <junction x="187.96" y="73.66"/>
 <label x="137.16" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VI1" class="0">
+<segment>
+<wire x1="38.1" y1="60.96" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="PS1" gate="G$1" pin="+VIN"/>
+<wire x1="50.8" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<junction x="38.1" y="66.04"/>
+<pinref part="C5" gate="G$1" pin="+"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<wire x1="17.78" y1="60.96" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="45.72" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="66.04" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
+<junction x="17.78" y="96.52"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="45.72" y1="93.98" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<junction x="45.72" y="96.52"/>
+<junction x="17.78" y="66.04"/>
+<pinref part="C3" gate="G$1" pin="+"/>
 </segment>
 </net>
 </nets>

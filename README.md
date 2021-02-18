@@ -9,6 +9,12 @@ schematics for eurorack power supplies
 * open project
 * activate libraries with right click and *use* in library manager
 
+
+
+### Crc group
+
+100uF - 1 Ohm Widerstand 
+
 ### DC DC Converter Options
 
 * 30W: https://www.mouser.de/ProductDetail/MEAN-WELL/DKMW30F-12/?qs=%2Fha2pyFadugPfVRQAxI4Iwf31KvWSSQ5yO6OlzoqYdGM367f8%2FWl4w%3D%3D
