@@ -16103,7 +16103,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 </instance>
 <instance part="R6" gate="G$1" x="27.94" y="66.04" smashed="yes">
 <attribute name="NAME" x="24.13" y="67.5386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="21.59" y="60.198" size="1.778" layer="96"/>
+<attribute name="VALUE" x="24.13" y="62.738" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="66.04" y="91.44" smashed="yes">
 <attribute name="NAME" x="67.183" y="91.9226" size="1.778" layer="95"/>
