@@ -89,7 +89,7 @@ In: 12-24V DC 15W</text>
 <text x="11.61" y="-15.74" size="2.54" layer="21" align="center">+</text>
 <text x="11.61" y="-20.82" size="2.54" layer="21" align="center">-</text>
 <text x="11.61" y="-25.9" size="2.54" layer="21" align="center">-</text>
-<text x="123.37" y="-32.25" size="1.778" layer="22" rot="MR0" align="center">red</text>
+<text x="123.37" y="-32.25" size="1.778" layer="21" align="center">red</text>
 <text x="123.37" y="-61.46" size="1.778" layer="21" align="center">red</text>
 <dimension x1="59.87" y1="-8.12" x2="85.27" y2="-8.12" x3="72.57" y3="-6.85" textsize="1.778" layer="47"/>
 <dimension x1="85.27" y1="-8.12" x2="110.67" y2="-8.12" x3="97.97" y3="-6.85" textsize="1.778" layer="47"/>
@@ -98,8 +98,8 @@ In: 12-24V DC 15W</text>
 <wire x1="57.33" y1="-58.92" x2="189.41" y2="-58.92" width="1" layer="21"/>
 <dimension x1="136.07" y1="-8.12" x2="161.47" y2="-8.12" x3="148.77" y3="-6.85" textsize="1.778" layer="47"/>
 <dimension x1="161.47" y1="-8.12" x2="186.87" y2="-8.12" x3="174.17" y3="-6.85" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="-65" x3="-4" y3="-32.5" textsize="1.778" layer="20"/>
-<dimension x1="0" y1="-65" x2="198" y2="-65" x3="99" y3="-69" textsize="1.778" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="-65" x3="-4" y3="-32.5" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="-65" x2="198" y2="-65" x3="99" y3="-69" textsize="1.778" layer="47"/>
 <hole x="4" y="-3" drill="3.4"/>
 <hole x="4" y="-62" drill="3.4"/>
 <hole x="194" y="-62" drill="3.4"/>
@@ -2110,8 +2110,6 @@ design rules under a new name.</description>
 <wire x1="29.39" y1="-22.09" x2="27.612" y2="-20.312" width="1" layer="16"/>
 <wire x1="27.612" y1="-20.312" x2="27.612" y2="-19.55" width="1" layer="16"/>
 <wire x1="31.93" y1="-9.39" x2="31.93" y2="-11.93" width="1" layer="16"/>
-<wire x1="28.12" y1="-53.84" x2="28.12" y2="-60.19" width="1" layer="16"/>
-<wire x1="28.12" y1="-60.19" x2="30.66" y2="-62.73" width="1" layer="16"/>
 <wire x1="34.47" y1="-47.49" x2="34.47" y2="-43.68" width="1" layer="16"/>
 <wire x1="30.66" y1="-39.87" x2="34.47" y2="-43.68" width="1" layer="16"/>
 <wire x1="30.66" y1="-39.87" x2="30.66" y2="-37.33" width="1" layer="16"/>
@@ -2198,6 +2196,7 @@ design rules under a new name.</description>
 <wire x1="188.14" y1="-48.76" x2="185.6" y2="-48.76" width="1" layer="16"/>
 <wire x1="185.6" y1="-51.3" x2="188.14" y2="-51.3" width="1" layer="16"/>
 <wire x1="185.6" y1="-53.84" x2="185.6" y2="-48.76" width="1" layer="16"/>
+<wire x1="111.94" y1="-19.55" x2="111.94" y2="-24.63" width="1" layer="16"/>
 </signal>
 <signal name="+15V">
 <contactref element="D1" pad="A"/>
