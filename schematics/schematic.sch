@@ -15923,6 +15923,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <groups>
 <schematic_group name="POWER_CONN"/>
 <schematic_group name="POWER_CONN1"/>
+<schematic_group name="POWER_CONN2"/>
 </groups>
 <parts>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15963,6 +15964,10 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="100uF"/>
+<part name="SV2" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
+<part name="SV3" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
+<part name="SV4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
+<part name="SV5" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-2" device="" package3d_urn="urn:adsk.eagle:package:8174/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -16116,6 +16121,22 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <instance part="C5" gate="G$1" x="38.1" y="58.42" smashed="yes">
 <attribute name="NAME" x="39.243" y="58.9026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.243" y="53.8226" size="1.778" layer="96"/>
+</instance>
+<instance part="SV2" gate="G$1" x="441.96" y="68.58" smashed="yes" grouprefs="POWER_CONN2">
+<attribute name="VALUE" x="438.15" y="55.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="438.15" y="82.042" size="1.778" layer="95"/>
+</instance>
+<instance part="SV3" gate="G$1" x="381" y="68.58" smashed="yes" grouprefs="POWER_CONN2">
+<attribute name="VALUE" x="377.19" y="55.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="377.19" y="82.042" size="1.778" layer="95"/>
+</instance>
+<instance part="SV4" gate="G$1" x="401.32" y="68.58" smashed="yes" grouprefs="POWER_CONN2">
+<attribute name="VALUE" x="397.51" y="55.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="397.51" y="82.042" size="1.778" layer="95"/>
+</instance>
+<instance part="SV5" gate="G$1" x="421.64" y="68.58" smashed="yes" grouprefs="POWER_CONN2">
+<attribute name="VALUE" x="417.83" y="55.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="417.83" y="82.042" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -16286,6 +16307,78 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="187.96" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <junction x="187.96" y="63.5"/>
 <junction x="93.98" y="63.5"/>
+<wire x1="393.7" y1="68.58" x2="388.62" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="373.38" y1="68.58" x2="388.62" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="68.58" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="68.58" x2="408.94" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="393.7" y1="68.58" x2="408.94" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="68.58" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="68.58" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="68.58" x2="429.26" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="68.58" x2="429.26" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="68.58" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="68.58" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="68.58" x2="449.58" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="68.58" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="7"/>
+<pinref part="SV2" gate="G$1" pin="8"/>
+<pinref part="SV3" gate="G$1" pin="7"/>
+<pinref part="SV3" gate="G$1" pin="8"/>
+<pinref part="SV4" gate="G$1" pin="7"/>
+<pinref part="SV4" gate="G$1" pin="8"/>
+<pinref part="SV5" gate="G$1" pin="7"/>
+<pinref part="SV5" gate="G$1" pin="8"/>
+<wire x1="355.6" y1="68.58" x2="373.38" y2="68.58" width="0.1524" layer="91"/>
+<junction x="373.38" y="68.58"/>
+<wire x1="393.7" y1="66.04" x2="388.62" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="373.38" y1="66.04" x2="388.62" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="66.04" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="393.7" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="66.04" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="66.04" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="66.04" x2="429.26" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="66.04" x2="429.26" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="66.04" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="66.04" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="66.04" x2="449.58" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="66.04" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="5"/>
+<pinref part="SV2" gate="G$1" pin="6"/>
+<pinref part="SV3" gate="G$1" pin="5"/>
+<pinref part="SV3" gate="G$1" pin="6"/>
+<pinref part="SV4" gate="G$1" pin="5"/>
+<pinref part="SV4" gate="G$1" pin="6"/>
+<pinref part="SV5" gate="G$1" pin="5"/>
+<pinref part="SV5" gate="G$1" pin="6"/>
+<wire x1="355.6" y1="66.04" x2="373.38" y2="66.04" width="0.1524" layer="91"/>
+<junction x="373.38" y="66.04"/>
+<wire x1="393.7" y1="63.5" x2="388.62" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="373.38" y1="63.5" x2="388.62" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="63.5" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="393.7" y1="63.5" x2="408.94" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="63.5" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="63.5" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="63.5" x2="429.26" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="63.5" x2="429.26" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="63.5" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="63.5" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="63.5" x2="449.58" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="63.5" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="3"/>
+<pinref part="SV2" gate="G$1" pin="4"/>
+<pinref part="SV3" gate="G$1" pin="3"/>
+<pinref part="SV3" gate="G$1" pin="4"/>
+<pinref part="SV4" gate="G$1" pin="3"/>
+<pinref part="SV4" gate="G$1" pin="4"/>
+<pinref part="SV5" gate="G$1" pin="3"/>
+<pinref part="SV5" gate="G$1" pin="4"/>
+<wire x1="355.6" y1="63.5" x2="373.38" y2="63.5" width="0.1524" layer="91"/>
+<junction x="373.38" y="63.5"/>
+<junction x="355.6" y="68.58"/>
+<junction x="355.6" y="66.04"/>
+<junction x="355.6" y="63.5"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
@@ -16403,6 +16496,30 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="91.44" y1="71.12" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="PS1" gate="G$1" pin="+VOUT"/>
 <wire x1="91.44" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="71.12" x2="408.94" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="393.7" y1="71.12" x2="388.62" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="373.38" y1="71.12" x2="388.62" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="71.12" grouprefs="POWER_CONN2"/>
+<wire x1="408.94" y1="71.12" x2="393.7" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="71.12" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="71.12" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="71.12" x2="429.26" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="71.12" x2="429.26" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="71.12" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="71.12" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="71.12" x2="449.58" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="71.12" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="9"/>
+<pinref part="SV2" gate="G$1" pin="10"/>
+<pinref part="SV3" gate="G$1" pin="9"/>
+<pinref part="SV3" gate="G$1" pin="10"/>
+<pinref part="SV4" gate="G$1" pin="9"/>
+<pinref part="SV4" gate="G$1" pin="10"/>
+<pinref part="SV5" gate="G$1" pin="9"/>
+<pinref part="SV5" gate="G$1" pin="10"/>
+<wire x1="355.6" y1="71.12" x2="373.38" y2="71.12" width="0.1524" layer="91"/>
+<junction x="373.38" y="71.12"/>
+<junction x="355.6" y="71.12"/>
 </segment>
 </net>
 <net name="VI" class="0">
@@ -16487,6 +16604,30 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="187.96" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
 <junction x="187.96" y="78.74"/>
 <label x="137.16" y="78.74" size="1.778" layer="95"/>
+<wire x1="393.7" y1="78.74" x2="388.62" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="373.38" y1="78.74" x2="388.62" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="78.74" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="78.74" x2="408.94" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="393.7" y1="78.74" x2="408.94" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="78.74" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="78.74" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="78.74" x2="429.26" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="78.74" x2="429.26" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="78.74" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="78.74" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="78.74" x2="449.58" y2="78.74" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="78.74" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="15"/>
+<pinref part="SV2" gate="G$1" pin="16"/>
+<pinref part="SV3" gate="G$1" pin="15"/>
+<pinref part="SV3" gate="G$1" pin="16"/>
+<pinref part="SV4" gate="G$1" pin="15"/>
+<pinref part="SV4" gate="G$1" pin="16"/>
+<pinref part="SV5" gate="G$1" pin="15"/>
+<pinref part="SV5" gate="G$1" pin="16"/>
+<wire x1="355.6" y1="78.74" x2="373.38" y2="78.74" width="0.1524" layer="91"/>
+<junction x="373.38" y="78.74"/>
+<junction x="355.6" y="78.74"/>
 </segment>
 </net>
 <net name="CV" class="0">
@@ -16539,6 +16680,30 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="187.96" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <junction x="187.96" y="76.2"/>
 <label x="137.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="414.02" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="393.7" y1="76.2" x2="388.62" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="373.38" y1="76.2" x2="388.62" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="76.2" grouprefs="POWER_CONN2"/>
+<wire x1="408.94" y1="76.2" x2="393.7" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="76.2" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="76.2" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="76.2" x2="429.26" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="76.2" x2="429.26" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="76.2" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="76.2" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="76.2" x2="449.58" y2="76.2" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="76.2" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="13"/>
+<pinref part="SV2" gate="G$1" pin="14"/>
+<pinref part="SV3" gate="G$1" pin="13"/>
+<pinref part="SV3" gate="G$1" pin="14"/>
+<pinref part="SV4" gate="G$1" pin="13"/>
+<pinref part="SV4" gate="G$1" pin="14"/>
+<pinref part="SV5" gate="G$1" pin="13"/>
+<pinref part="SV5" gate="G$1" pin="14"/>
+<wire x1="355.6" y1="76.2" x2="373.38" y2="76.2" width="0.1524" layer="91"/>
+<junction x="373.38" y="76.2"/>
+<junction x="355.6" y="76.2"/>
 </segment>
 </net>
 <net name="-12V" class="0">
@@ -16598,6 +16763,30 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="88.9" y1="60.96" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="PS1" gate="G$1" pin="-VOUT"/>
 <wire x1="88.9" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="60.96" x2="388.62" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="373.38" y1="60.96" x2="388.62" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="60.96" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="60.96" x2="408.94" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="393.7" y1="60.96" x2="408.94" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="60.96" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="60.96" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="60.96" x2="429.26" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<wire x1="414.02" y1="60.96" x2="429.26" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="60.96" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="60.96" grouprefs="POWER_CONN2"/>
+<wire x1="434.34" y1="60.96" x2="449.58" y2="60.96" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="60.96" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="1"/>
+<pinref part="SV2" gate="G$1" pin="2"/>
+<pinref part="SV3" gate="G$1" pin="1"/>
+<pinref part="SV3" gate="G$1" pin="2"/>
+<pinref part="SV4" gate="G$1" pin="1"/>
+<pinref part="SV4" gate="G$1" pin="2"/>
+<pinref part="SV5" gate="G$1" pin="1"/>
+<pinref part="SV5" gate="G$1" pin="2"/>
+<wire x1="355.6" y1="60.96" x2="373.38" y2="60.96" width="0.1524" layer="91"/>
+<junction x="373.38" y="60.96"/>
+<junction x="355.6" y="60.96"/>
 </segment>
 </net>
 <net name="+12V1" class="0">
@@ -16680,6 +16869,30 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data Sheets/Mean Well PDF"&gt;
 <wire x1="187.96" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 <junction x="187.96" y="73.66"/>
 <label x="137.16" y="73.66" size="1.778" layer="95"/>
+<pinref part="SV2" gate="G$1" pin="12"/>
+<wire x1="434.34" y1="73.66" x2="449.58" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="434.34" y="73.66" grouprefs="POWER_CONN2"/>
+<pinref part="SV2" gate="G$1" pin="11"/>
+<wire x1="434.34" y1="73.66" x2="429.26" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="429.26" y="73.66" grouprefs="POWER_CONN2"/>
+<pinref part="SV5" gate="G$1" pin="12"/>
+<wire x1="414.02" y1="73.66" x2="429.26" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="414.02" y="73.66" grouprefs="POWER_CONN2"/>
+<pinref part="SV5" gate="G$1" pin="11"/>
+<wire x1="414.02" y1="73.66" x2="408.94" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="408.94" y="73.66" grouprefs="POWER_CONN2"/>
+<pinref part="SV4" gate="G$1" pin="12"/>
+<wire x1="393.7" y1="73.66" x2="408.94" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="393.7" y="73.66" grouprefs="POWER_CONN2"/>
+<pinref part="SV4" gate="G$1" pin="11"/>
+<wire x1="393.7" y1="73.66" x2="388.62" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<junction x="388.62" y="73.66" grouprefs="POWER_CONN2"/>
+<pinref part="SV3" gate="G$1" pin="12"/>
+<wire x1="373.38" y1="73.66" x2="388.62" y2="73.66" width="0.1524" layer="91" grouprefs="POWER_CONN2"/>
+<pinref part="SV3" gate="G$1" pin="11"/>
+<junction x="373.38" y="73.66"/>
+<wire x1="355.6" y1="73.66" x2="373.38" y2="73.66" width="0.1524" layer="91"/>
+<junction x="355.6" y="73.66"/>
 </segment>
 </net>
 <net name="VI1" class="0">
