@@ -9,6 +9,11 @@ schematics for eurorack power supplies
 * open project
 * activate libraries with right click and *use* in library manager
 
+## Notes
+
+* To avoid oscillation problems when using DKMW30f-12:
+  * Replace R6 with wired connection
+  * Don't solder in C3
 
 ## BOM
 
